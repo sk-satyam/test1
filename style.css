@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 5vw;
+}
+.navbar{
+    width: 85%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.navbar ul li{
+    padding: 2vw;
+    list-style: none;
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
